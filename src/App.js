@@ -4,7 +4,9 @@ import './App.css'
 
 function App(){
   return (
-    <div></div>
+    <div className = 'App'>
+      <h1> WECOLME TO THE REACT PLAYGROUND </h1>
+    </div>
   )
 }
 
