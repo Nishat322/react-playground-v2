@@ -8,7 +8,7 @@ class Accordion extends Component {
     constructor(props){
         super(props)
         this.state = {
-            currentSectionIndex: 0
+            currentSectionIndex: ''
         }
     }
 
@@ -20,7 +20,7 @@ class Accordion extends Component {
     
     renderButton(){
         return this.props.sections.map((sections, index) => (
-            <li>
+            <li key = {index}>
                 <button 
                     key ={index}
                     onClick = {() => this.handleButtonClicked(index)}
