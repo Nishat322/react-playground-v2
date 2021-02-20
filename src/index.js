@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom'
 //import App from './composition/App'
 //import App from './messages/App'
 //import App from './state/App'
-import App from './state-drills/App'
+//import App from './state-drills/App'
+import App from './demonymapp/App'
 import './index.css'
 
 ReactDOM.render(
